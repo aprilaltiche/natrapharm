@@ -1,0 +1,65 @@
+.about{
+
+    .title{
+
+        margin-top: 30px;
+
+        .titlename{
+            color: red;
+            font-size: 28px;
+            width: 146px;
+            height: 28px;
+            font-style: bold;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 135px;
+        }
+    }
+
+    .icons{
+
+        img{
+            margin-top: 80px;
+            margin-bottom: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+        }
+
+    }
+
+    .desc{
+
+        width: 1658px;
+        height: 271px;
+        margin: auto;
+
+        .titledesc{
+            color: black;
+            font-size: 21px;
+            margin-top: 30px;
+            line-height: 25px;
+        }
+
+    }
+    
+
+    .titlefoot{
+
+        background-color: red;
+        //width: 1920px;
+        //height: 298px;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+        .titlecontent{
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+}
