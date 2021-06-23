@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>
     <!-- The modal -->
     <b-modal
@@ -92,6 +93,10 @@
         >
       </b-form>
     </b-modal>
+=======
+  <div class="page-signin">
+    
+>>>>>>> 327fc031760b758d1dcc2978401c59ab4ef8e39d
   </div>
 </template>
 

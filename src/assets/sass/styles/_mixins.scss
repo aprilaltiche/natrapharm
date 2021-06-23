@@ -1,0 +1,12 @@
+$screen-sm-min: 320px;
+
+$screen-md-min: 576px;
+$screen-lg-min: 576px;
+$screen-xl-min: 576px;
+
+
+@mixin mobile-sm{
+    @media(max-width: #{$screen-sm-min}){
+        @content
+    }
+}

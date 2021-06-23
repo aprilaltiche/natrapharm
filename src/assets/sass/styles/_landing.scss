@@ -1,7 +1,104 @@
-a {
-  color: $primary !important;
+.main-menu {
+  display: flex;
+  width: max-content;
+  gap: 21px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5625vw;
+    padding: 0;
+    & > li {
+      padding: 0.26041666666666663vw 1.5625vw 0.8854166666666666vw;
+
+      span {
+        &:hover {
+          padding-top: 8px;
+          color: $primary;
+          border-top: 0.15625vw solid $primary;
+          -moz-transition: all 0.5s ease-in-out;
+          -o-transition: all 0.5s ease-in-out;
+          -webkit-transition: all 0.5s ease-in-out;
+          -ms-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+        }
+
+        & > a {
+          color: #333 !important;
+          font-size: 1.09375vw;
+          font-weight: 400;
+          text-decoration-line: none;
+          &:hover {
+            color: $primary!important;
+          }
+        }
+      }
+    }
+  }
 }
 
-.main-menu {
-  list-style: none;
+#logo_home {
+  width: 19.739583333333332vw;
+  & > h1 a {
+    width: 19.739583333333332vw;
+    height: 3.3854166666666665vw;
+    display: block;
+    //background: url("") no-repeat 0 0;
+    background-size: 19.739583333333332vw 3.3854166666666665vw;
+    text-indent: -9999px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.btn-signin {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border: 2px solid #e12328;
+  color: #e12328;
+  font-weight: 600;
+  border-radius: 1.3020833333333335vw;
+  padding: 0.26041666666666663vw 1.5625vw;
+  font-size: 0.9375vw;
+}
+.btn-login {
+  font-family: "Poppins", sans-serif;
+  background-color: #e12328;
+  border: 2px solid #e12328;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 1.3020833333333335vw;
+  padding: 0.26041666666666663vw 1.5625vw;
+  font-size: 0.9375vw;
+}
+
+.sticky_header {
+  position: sticky;
+  height: 4.84375vw !important;
+  border-bottom: 3px solid #e12328;
+  padding: 10px;
+}
+
+.modal-sign-up {
+  font-family: "Poppins", sans-serif;
+}
+
+.modal-footer {
+  font-family: poppins;
+  font-weight: 400;
+  flex-direction: row-reverse;
+  justify-content: start !important;
+  .btn-secondary {
+    background: $primary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-main {
+  margin-top: 15px;
+  & > a {
+    margin-right: 1rem;
+  }
 }

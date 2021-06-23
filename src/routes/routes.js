@@ -6,13 +6,19 @@ import Consult from "../components/views/Content/Consult.vue";
 import AboutUs from "../components/views/Content/AboutUs.vue";
 import LogIn from "../components/views/Content/LogIn.vue";
 import SignUp from "../components/views/Content/SignUp.vue";
+import Home from "../components/views/Content/Home.vue";
 
 const routes = [
   {
     path: "/",
     name: "HomePage",
-    redirect: "/findoctor",
+    redirect: "/home",
     component: LandingPage,
+  },
+  {
+    path: "/home",
+    name: "Home",
+    component: Home,
   },
   {
     path: "/findoctor",

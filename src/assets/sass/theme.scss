@@ -1,3 +1,9 @@
-@import "./styles/variables";
+@import "./html";
+@import "./variables";
+
 @import "./styles/landing";
-@import "./styles/aboutus";
+@import "./styles/landing/findoctor";
+@import "./styles/landing/benefits";
+@import "./styles/landing/login";
+
+@import "./mixins";
