@@ -1,0 +1,145 @@
+.about{
+
+    background-color: #ECECEC;
+
+    .titlelogo{
+
+        align-items: center; 
+        text-align: center;
+
+        .titlelogomid{
+
+            padding-top: 50px;
+
+            @include mobile-sm{
+                flex-basis: auto;
+            }
+
+            a{
+
+                img{
+                        width: 226px; 
+                        margin: 15px !important;
+
+                            @include mobile-sm{
+
+                                width: 120px;
+                                margin: 15px !important;
+                            }
+                }
+            }
+
+        }
+
+    }
+
+    .titledesc{
+
+        .titlehead{
+
+            margin-top: 40px;
+
+            @include mobile-sm{
+
+                flex-basis: auto;
+
+            }
+
+           .p_header28_red{
+
+                z-index: 5;
+                font-size: 28px;
+                font-weight: bold;
+                line-height: 35px;
+                color: #e12328;
+                font-family: helvetica;
+                margin-left: 150px;
+                margin-right: 150px;
+
+                @include mobile-sm{
+
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-left: 30px;
+                    margin-right: 0px;
+
+                    }
+            } 
+
+        }
+
+        
+
+        .titledesccontent{
+
+            .desc{
+                    display: flex;
+                    text-align: justify !important;
+                    text-justify: inter-word !important;
+                    justify-content: center !important;
+                    font-weight: 500; 
+                    font-size: 20px;
+                    font-family: helvetica; 
+                    line-height: 25px; 
+                    color: #000000;
+                    margin-left: 150px;
+                    margin-right: 150px;
+
+                    @include mobile-sm{
+
+                        font-size: 17px;
+                        line-height: 23px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+    
+                        }
+            }
+
+        }
+
+    }
+
+    .titlefoot{
+
+        background-color: #e12328; 
+        align-items: center; 
+        text-align: center;
+        padding: 40px 0px;
+        margin:0px;
+
+// Here
+        @include mobile-sm{
+
+            font-size:18px !important;
+            font-family: helvetica;
+        }
+
+        .titlefootmid{
+
+            font-size:22px;
+            font-family: helvetica;
+            font-weight:520;
+            color:#fff;
+            text-align: center;
+
+            span{
+
+                #contact{
+                    font-size:24px;
+                    font-family: helvetica;
+                    color:#fff;
+                    margin: 0px;
+                    padding-bottom: 0px;
+                }
+
+                #support{
+                    font-size:22px;
+                    font-family: helvetica;
+                    color:#fff;
+                }
+            }
+
+        }
+    }
+
+}

@@ -1,3 +1,4 @@
+@import "./styles/bootstrap-override";
 @import "./html";
 @import "./variables";
 
@@ -6,4 +7,12 @@
 @import "./styles/landing/benefits";
 @import "./styles/landing/login";
 
-@import "./mixins"
+@import "./mixins";
+
+@import "./styles/mixins";
+
+@import "./styles/variables";
+@import "./styles/landing";
+@import "./styles/aboutus";
+
+
